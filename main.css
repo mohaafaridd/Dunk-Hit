@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+h1,
+h2,
+p,
+span {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+p{
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#points-container {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+img {
+    display: none;
+}
